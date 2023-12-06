@@ -1,0 +1,20 @@
+[package]
+name = "dex_checksum_tools"
+version = "0.1.0"
+authors = ["Lenox Enjoy <nikeorever@gmail.com>"]
+edition = "2021"
+license = "Apache-2.0"
+description = "A set of command-line tools for calculating and validating Adler-32 checksums for dex files."
+readme = "README.md"
+repository = "https://github.com/nikeorever/dex_checksum_tools/"
+categories = ["command-line-utilities"]
+exclude = [".github/**"]
+
+[dependencies]
+structopt = "0.3"
+adler32 = "1.2.0"
+
+[profile.release]
+lto = true
+codegen-units = 1
+
