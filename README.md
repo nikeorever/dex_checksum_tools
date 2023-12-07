@@ -39,14 +39,14 @@ The binary will be placed in your `~/.cargo/bin` which should be on your shell's
 
 A container with the binary is available from Docker Hub.
 
-* `lenox/dex_checksum_tools` [![Docker Image Version](https://img.shields.io/docker/v/lenox/dex_checksum_tools?sort=semver)][hub]
+* `lenox/dex_checksum_tools` [![Docker Image Version](https://img.shields.io/docker/v/lenoxxian/dex_checksum_tools?sort=semver)][hub]
 
-[hub]: https://hub.docker.com/r/lenox/dex_checksum_tools/
+[hub]: https://hub.docker.com/r/lenoxxian/dex_checksum_tools/
 
 Use `docker run` instead of directly using the binary.
 
 ```
-docker run -i -a STDIN -a STDOUT -v /local/volume:/container/volume lenox/dex_checksum_tools dex_checksum_tools <subcommand>
+docker run -i -a STDIN -a STDOUT -v /local/volume:/container/volume lenoxxian/dex_checksum_tools dex_checksum_tools <subcommand>
 ```
 
 ## License
