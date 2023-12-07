@@ -46,7 +46,7 @@ A container with the binary is available from Docker Hub.
 Use `docker run` instead of directly using the binary.
 
 ```
-docker run -i -a STDIN -a STDOUT -v /local/volume:/container/volume lenoxxian/dex_checksum_tools dex_checksum_tools <subcommand>
+docker run -i -a STDIN -a STDOUT -v /local/volume:/container/volume lenoxxian/dex_checksum_tools:0.1.0 dex_checksum_tools <subcommand>
 ```
 
 ## License
