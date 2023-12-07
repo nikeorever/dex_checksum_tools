@@ -8,6 +8,7 @@ description = "A set of command-line tools for calculating and validating Adler-
 readme = "README.md"
 repository = "https://github.com/nikeorever/dex_checksum_tools/"
 categories = ["command-line-utilities"]
+keywords = ["dex", "checksum", "adler32", "dex_checksum_tools"]
 exclude = [".github/**"]
 
 [dependencies]
