@@ -1,6 +1,3 @@
-#![deny(clippy::unwrap_used)]
-#![deny(clippy::expect_used)]
-
 use dex_checksum_tools::Dex;
 use std::io::{stdin, Read};
 use structopt::StructOpt;

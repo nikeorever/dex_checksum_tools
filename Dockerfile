@@ -9,8 +9,10 @@ RUN cargo clippy
 RUN cargo test
 RUN cargo fmt -- --check
 
-FROM debian:buster-slim
+FROM fedora:39
 WORKDIR /app
 COPY --from=rust /app/target/release/dex_checksum_tools ./
 
-CMD '/app/dex_checksum_tools'
+ENV PATH=$PATH:/app
+
+CMD 'dex_checksum_tools'
