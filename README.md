@@ -5,19 +5,19 @@ A set of command-line tools for calculating and validating Adler-32 checksums fo
 
 ## Usage
 
-### Calculates the current checksum from the DEX file's header
+Calculates the current checksum from the DEX file's header
 
 ```
 $ dex_checksum_tools current-checksum /path/to/input.dex
 ```
 
-### Calculates the expected checksum for the DEX file
+Calculates the expected checksum for the DEX file
 
 ```
 $ dex_checksum_tools expect-checksum /path/to/input.dex
 ```
 
-### Corrects the checksum in the DEX file header if it does not match the expected checksum
+Corrects the checksum in the DEX file header if it does not match the expected checksum
 
 ```
 $ dex_checksum_tools correct-checksum /path/to/input.dex /path/to/output.dex
